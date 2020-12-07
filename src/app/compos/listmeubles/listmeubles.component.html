@@ -1,0 +1,5 @@
+<h1> Liste des meubles </h1>
+<div *ngFor=" let t of meubles ">
+   <Mari-meuble [libelle]="t.libelle" [img]="t.img" [price]="t.prixTTC" [prom]="t.promo" [date]="t.dateFab" ></Mari-meuble>
+</div  >
+
